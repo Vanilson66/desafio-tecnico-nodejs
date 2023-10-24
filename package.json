@@ -1,0 +1,13 @@
+{
+  "name": "desafio-tecnico-nodejs",
+  "version": "1.0.0",
+  "description": "A tecnical challenge",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/index",
+    "start": "node ./src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vanilson Silva",
+  "license": "ISC"
+}
