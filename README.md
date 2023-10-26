@@ -5,10 +5,10 @@ salvas no banco de dados bem como a senha criptografada, mas apenas o identifica
 usuário(um email por exemplo) e o token JWT seriam devolvidos para ao cliente, que poderia 
 ser armazenado em um local storage pox exemplo.
 
-A validação deste token seria feito por meio de um Middleware interceptando todas as 
+- A validação deste token seria feito por meio de um Middleware interceptando todas as 
 rotas protegidas. 
 
-Já para fazer a renovação existem alguns métodos, um deles seria após o frontend detectar 
+- Já para fazer a renovação existem alguns métodos, um deles seria após o frontend detectar 
 que o token não é mais válido ao carregar a página, ele irá solicitar os dados de login novamente
 para ao usuário para fazer um novo login e assim garantindo um novo token. 
 
