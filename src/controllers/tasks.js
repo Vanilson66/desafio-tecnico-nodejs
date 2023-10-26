@@ -12,7 +12,7 @@ const SECRET = 'secret'
  * /api/getToken:
  *   get:
  *     summary: Obtém um token de autenticação.
- *     description: Obtém um token de autenticação JWT para testes.
+ *     description: Com o token o cliente consegue acessar rotas protegidas.
  *     responses:
  *       201:
  *         description: Token de autenticação gerado com sucesso.
