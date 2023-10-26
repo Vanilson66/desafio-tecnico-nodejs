@@ -1,3 +1,14 @@
+# Como rodar o projeto?
+
+- Faça a instalação dos pacotes:
+- npm install
+
+- Crie um banco de dados MongoDB e coloque a chave de acesso no arquivo .env
+* Deixei um já configurado no servidor do Mongo Atlas, então pode pular esta parte
+
+- E por último rode o projeto:
+- npm start
+
 # Explique como você lidaria com a  geração, validação e renovação dos tokens JWT.
 
 - Em uma aplicação real, ao efetuar o login as informações de login seriam 
